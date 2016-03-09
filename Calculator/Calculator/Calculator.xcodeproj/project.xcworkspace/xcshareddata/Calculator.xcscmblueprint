@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "295C28FB34B8F9F2FF2D7F8E79AE2EEC12DDD342",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "295C28FB34B8F9F2FF2D7F8E79AE2EEC12DDD342" : 0,
+    "D11EB9B1335F8EC622A59916C739AF0B348A5187" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9DE39E44-80BE-4568-94AE-8C45A76322F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "295C28FB34B8F9F2FF2D7F8E79AE2EEC12DDD342" : "iOS\/",
+    "D11EB9B1335F8EC622A59916C739AF0B348A5187" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Calculator\/Calculator\/Calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lulu410\/CS193p.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "295C28FB34B8F9F2FF2D7F8E79AE2EEC12DDD342"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lulu410\/potato.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D11EB9B1335F8EC622A59916C739AF0B348A5187"
+    }
+  ]
+}
