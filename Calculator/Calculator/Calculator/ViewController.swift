@@ -13,53 +13,46 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
     
     var isTyping:Bool = false
+    var brain = CalculatorBrain()
     
-    @IBAction func appendDigit(sender: UIButton) {
+    @IBAction func appendfDigit(sender: UIButton) {
         let digit = sender.currentTitle!
+        //print(isTyping)
         if isTyping{
             display.text = display.text! + digit
         }
         else{
             display.text = digit
             isTyping = true
+          //  print(isTyping)
         }
     }
     @IBAction func operate(sender: UIButton) {
-        let operation = sender.currentTitle!
+        
         if isTyping{
             enter()
         }
-        switch operation{
-        case "✖️": performOperation {$0 * $1}
-        case "➗": performOperation {$1 / $0}
-        case "➖": performOperation {$1 - $0}
-        case "➕": performOperation {$0 + $1}
-        case "⎷" : performOperation1 {sqrt($0)}
-        default: break
+        
+        if let operation = sender.currentTitle{
+            print("operation is =\(brain.performOperation(operation))")
+            if let result = brain.performOperation(operation){print("here")
+                displayValue = result
+            }else{
+                displayValue = 0
+            }
         }
     }
-    func performOperation(operation: (Double, Double) -> Double){
-        if operandStack.count >= 2{
-            displayValue = operation(operandStack.removeLast(), operandStack.removeLast())
-            enter()
-        }
-    }
-    func performOperation1(operation: Double -> Double){
-        if operandStack.count >= 1{
-            displayValue = operation(operandStack.removeLast())
-            enter()
-        }
-    }
-
     
-    
-    
-    var operandStack = Array<Double>()
     
     @IBAction func enter() {
         isTyping = false
-        operandStack.append(displayValue)
-        print("operandStack = \(operandStack)")
+        print("operand is = \(brain.pushOperand(displayValue))")
+        if let result = brain.pushOperand(displayValue){
+            displayValue = result
+        }else{
+            displayValue = 0
+        }
+    
     }
     var displayValue: Double{
         get{
@@ -68,7 +61,7 @@ class ViewController: UIViewController {
         }
         set{
             display.text = "\(newValue)"
-            isTyping = false
+            
         }
     }
 

@@ -14,6 +14,7 @@
 		7A0710861C90E8E10091E397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0710841C90E8E10091E397 /* LaunchScreen.storyboard */; };
 		7A0710911C90E8E10091E397 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0710901C90E8E10091E397 /* CalculatorTests.swift */; };
 		7A07109C1C90E8E10091E397 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07109B1C90E8E10091E397 /* CalculatorUITests.swift */; };
+		7A3595E21C9CA6D7009AA8F4 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3595E11C9CA6D7009AA8F4 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7A0710971C90E8E10091E397 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A07109B1C90E8E10091E397 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		7A07109D1C90E8E10091E397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3595E11C9CA6D7009AA8F4 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7A07107D1C90E8E10091E397 /* ViewController.swift */,
 				7A07107F1C90E8E10091E397 /* Main.storyboard */,
+				7A3595E11C9CA6D7009AA8F4 /* CalculatorBrain.swift */,
 				7A07107B1C90E8E10091E397 /* AppDelegate.swift */,
 				7A0710821C90E8E10091E397 /* Assets.xcassets */,
 				7A0710841C90E8E10091E397 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3595E21C9CA6D7009AA8F4 /* CalculatorBrain.swift in Sources */,
 				7A07107E1C90E8E10091E397 /* ViewController.swift in Sources */,
 				7A07107C1C90E8E10091E397 /* AppDelegate.swift in Sources */,
 			);

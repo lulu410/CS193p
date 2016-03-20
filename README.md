@@ -1,1 +1,2 @@
-# CS193p
+# CS193p from Stanford
+# Cited: Youtube Stanford iOS with swift
